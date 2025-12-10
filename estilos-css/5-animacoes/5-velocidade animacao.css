@@ -1,0 +1,38 @@
+body { display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    background: #ea640b;
+    animation-name: exemplo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+
+@keyframes exemplo {
+    from {
+        background: rgb(236, 236, 29);
+        
+    }
+    quite { 
+        background: black;
+        
+        
+    }
+    to {
+        background: rgb(236, 31, 205);
+        
+        
+    }   
+
+}
