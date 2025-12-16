@@ -19,6 +19,10 @@ body { display: flex;
     
 }
 
+.box:hover {
+    animation-play-state: paused;
+}
+
 @keyframes exemplo {
     from {
         background: rgb(236, 236, 29);

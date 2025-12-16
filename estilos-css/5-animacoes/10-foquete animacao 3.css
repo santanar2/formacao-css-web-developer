@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(180deg, rgb(34,34,34)50%, rgb(74, 153, 230)100%);
+}
+
+.rocket {
+    animation: take-off-rocket 6s ease-in-out infinite alternate;
+    width: 30vh;
+    height: auto;
+    margin-top: 70vh;
+
+}
+
+@keyframes take-off-rocket {
+    0% {
+        transform: translateY(0vh);
+    }
+    50% {
+        transform: translateY(0vh);
+    }
+    100% {
+        transform: translateY(-100vh);
+    }
+}
