@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    background-color: lightgreen;
+}
+
+#conteudo p {
+    background-color: lightcoral;
+}
+
+#conteudo p.texto {
+    background-color:  cornflowerblue;
+}
