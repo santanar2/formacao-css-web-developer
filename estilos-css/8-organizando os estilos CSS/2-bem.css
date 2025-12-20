@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+    font-size: 5rem;
+    text-align: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.menu {
+    background-color: rgb(105, 174, 224);
+    text-align: center;
+    margin-top: 32px;
+    padding: 0.1px;
+    border-radius: 4px;
+}
+
+.menu__list li {
+     
+    display: inline-block;
+    margin: 0 16px;
+    border-radius: 0.5rem;
+    padding: 8px 16px;
+    color: white;
+}
+
+.menu__list a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.menu__link {
+    color: white;
+    background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+    padding: 12px 14px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.menu__link--active {
+    font-weight: bold;
+    color: yellowgreen;
+}
