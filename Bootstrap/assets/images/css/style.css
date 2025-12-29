@@ -32,3 +32,27 @@ main {
     background: linear-gradient(transparent, rgb(97, 91, 91));
     position: absolute;
 }
+
+.card-menu {
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    background-color: white;
+    height: 100%;
+}
+
+.card-menu img {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 0.375rem;
+    border-top-right-radius: 0.375rem;
+}
+
+.card-menu .card-body {
+    padding: 1rem;
+}
+
+.card-menu .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
